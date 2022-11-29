@@ -1,0 +1,344 @@
+body {
+    /* background: url('../img/anh-nen.jpg')no-repeat;
+    width: 100%;
+    background-size: 100% 100%; */
+    /*background: #f5f5f5;*/
+    /*background: #4285d2;*/
+}
+
+/*div#banner {*/
+/*    background: url('../img/s3.jpg') no-repeat;*/
+/*    width: 100%;*/
+/*    background-size: 100% 100%;*/
+/*    min-height: 600px;*/
+/*}*/
+div#banner {
+    /* background: url('../img/s7.jpg') no-repeat; */
+    width: 100%;
+    background-size: 100% 100%;
+    min-height: 600px;
+    /*background: aliceblue;*/
+    background: #ffffff;
+}
+#content.content {
+    background: url('../img/s3.jpg') no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    padding-bottom: 42px;
+    /*max-width: 1420px;*/
+    /*margin: 0 auto;*/
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.dropdown {
+    position: unset !important;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 100%;
+    left: 0px;
+    top: 69px;
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+#header .navbar {
+    /*background: #ff334b;*/
+    background: #4285d2;
+}
+
+#header .navbar .input-search {
+    background-color: hsla(0, 0%, 100%, 0.32);
+    border-radius: 25px 0px 0px 25px;
+    border-color: #ffffff;
+    border-right: none;
+    border: unset !important;
+    height: 38px;
+}
+
+#header .navbar .btn-search {
+    border-radius: 0px 25px 25px 0px;
+    background-color: hsla(0, 0%, 100%, 0.32);
+    /* border: 1px solid #ffffff; */
+    padding-left: 17px;
+    padding-right: 17px;
+
+}
+
+#header .navbar .input-search::placeholder {
+    color: #ffffff;
+}
+
+#header .navbar .register-login .register a {
+    border-radius: 25px 0px 0px 25px;
+    min-width: 110px;
+    display: inline-block;
+}
+
+#header .navbar .register-login .login a {
+    border-radius: 0px 25px 25px 0px;
+    min-width: 110px;
+    display: inline-block;
+}
+
+.form-search {
+    flex-grow: 3;
+}
+
+i.fas.fa-search {
+    color: #FFFFFF;
+}
+
+.drop-menu-kt .kt-flex-menu > a {
+    color: #212529;
+}
+
+.kt-flex-menu {
+    background: #ffffff;
+}
+
+/* .drop-menu-kt .kt-flex-menu>a:hover{
+    color: black;
+    transition: 0.7s ease-in-out;
+} */
+a {
+    position: relative;
+}
+
+.drop-menu-kt .kt-flex-menu a::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 51%;
+    right: 51%;
+    bottom: -8px;
+    background: #dc502c;
+    height: 3px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+header ul > li:hover > a:before {
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background: unset;
+}
+
+.kt-flex-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.kt-flex-menu ul li {
+    margin: 20px;
+    min-width: 120px;
+    max-width: 120px;
+    text-align: center;
+}
+
+.dropdown-item {
+    padding: unset;
+}
+
+div#banner {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    /* background: #f5f5f5; */
+}
+
+.comic-title {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.box-comic {
+    max-width: 168px !important;
+}
+
+span.star {
+    position: absolute;
+    top: -1px;
+    background: #707070;
+    color: #ff0;
+    border-radius: 5px 0px 5px 0px;
+    left: 0px;
+    padding: 3px 10px 3px 3px;
+}
+
+.category-comic .box-comic > img {
+    width: 168px;
+    height: 263px;
+}
+
+.comment-tt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.text-content-comic .text-nd {
+    font-size: 16px;
+
+}
+
+.content-commic {
+    width: 168px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 19px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+span.text-chapter {
+    background: unset !important;
+}
+
+.title-truyen {
+    margin: 15px 0px 10px 0px;
+    font-family: cursive;
+    width: 157px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 19px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+}
+
+.chapter-chuong {
+    margin-top: 5px;
+}
+
+/* footer */
+#footer {
+    /*background: #707070;*/
+    background: #4285d2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* end footer */
+.comci-fire {
+    background: red;
+    color: #ffffff;
+    width: 50px;
+    height: 31px;
+    /* font-size: 13px; */
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 47;
+    overflow: hidden;
+}
+
+.fa-solid, .fas {
+    margin-right: 5px;
+}
+
+
+.ct-ft {
+    color: black !important;
+    border-color: black;
+}
+
+.len {
+    color: black !important;
+}
+
+.top-up {
+    position: fixed;
+    background: #ff334b;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 99999999999999;
+    bottom: 228px;
+    right: 61px;
+    cursor: pointer;
+    display: none;
+}
+
+.add-show {
+    display: flex !important;
+}
+
+.xam {
+    height: 50px;
+    width: 100%;
+    background:#6a81c4;
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.paging-home {
+    width: 100%;
+}
+
+.paging-home ul.li-paging-home {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+
+.paging-home ul.li-paging-home li {
+    padding: 8px 16px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+}
+
+.paging-home ul.li-paging-home li.active {
+    background-color: #f66 !important;
+    border-color: #f66;
+}
+
+.paging-home ul.li-paging-home li.active a {
+    color: #fff !important;
+}
+
+.paging-home ul.li-paging-home li a {
+    color: #666;
+}
+
+#customers th {
+    /*background-color: #ff334b;*/
+    background-color: hsla(0, 0%, 100%, 0.32);
+}
+
+.coating {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+   position: absolute;
+}

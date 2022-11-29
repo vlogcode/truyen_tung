@@ -1,0 +1,43 @@
+
+
+.category-comic .slick-next,
+.category-comic .slick-prev{
+display: none !important;
+}
+div#banner .slick-dots li.slick-active button:before{
+    opacity: 1;
+    color: black;
+    width: 47px;
+    height: 10px;
+    background: aqua;
+    content: ".";
+
+   
+}
+div#banner .slick-dots li button::before {
+    opacity: 1;
+    color: black;
+    width: 47px;
+    height: 10px;
+    background: red;
+    content: ".";
+    border-radius: 10px;
+   
+}
+div#banner .slick-dots li{
+    margin: 0px 20px;
+    cursor: pointer !important;
+}
+button.slick-prev.slick-arrow{
+    cursor: pointer;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    cursor: pointer !important;
+}
+#banner .slick-next,
+#banner .slick-prev{
+    display: none !important;
+}
+#banner .slick-dots{
+    bottom: -75px;
+}
