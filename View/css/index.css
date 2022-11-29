@@ -526,7 +526,7 @@ ul.navbar-nav I
     #header .navbar .register-login .register a,
     #header .navbar .register-login .login a{
         min-width: unset !important;
-        width: 85px;
+        width: 110px;
         padding: 5px 10px;
         font-size: 16px;
     }
@@ -698,7 +698,7 @@ ul.navbar-nav I
         height: 38px;
     }
     #header .navbar{
-        padding: 10px;
+        padding: 17px 5px;
     }
     /*  */
     #content .container{margin-top: 20px !important;}
@@ -707,8 +707,10 @@ ul.navbar-nav I
         max-width: 155px !important;
     }
     .navbar-light .navbar-brand{
-        width: 110px;
+        /* width: 118px; */
+        max-width: 150px;
         margin-right: 0px;
+        flex-grow: 3;
     }
     #header .navbar .input-search{
         width: 50% !important;
@@ -747,11 +749,11 @@ ul.navbar-nav I
         padding: 5px 0px;
     }
     .category-comic .box-comic > img{
-        width: 155px !important;
+        width: 95% !important;
         height: 180px !important;
     }
     .comci-fire{
-        right: 12px !important;
+        right: 8px !important;
     }
     .category-comic .text-content-comic{
         max-width: 155px;
@@ -783,6 +785,19 @@ ul.navbar-nav I
         width: 88px;
         font-size: 14px;
         padding: 5px 5px;
+    }
+    .comic .category-comic .box-comic{
+            margin-left: 3px;
+            margin-right: 3px;
+    }
+    .box-comic{
+        max-width: 100% !important;
+    }
+    #header .navbar .register-login{
+        margin-right: 8px;
+    }
+    .slide_home_ct .slick-next,.slide_home_ct .slick-prev{
+        display: none !important;
     }
 
 }

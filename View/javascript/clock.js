@@ -82,6 +82,7 @@ jQuery(document).ready(function ($) {
           slidesToShow: 2,
           arrow: false,
           slidesToScroll: 1,
+          autoplay: true
         },
       },
     ],
@@ -89,7 +90,7 @@ jQuery(document).ready(function ($) {
   $('.comic2').slick({
     slidesToShow: 6,
     slidesToScroll: 6,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     dots: false,
     responsive: [
@@ -117,6 +118,8 @@ jQuery(document).ready(function ($) {
           slidesToShow: 2,
           arrow: false,
           slidesToScroll: 1,
+          slidesToScroll: 1,
+
         },
       },
     ],

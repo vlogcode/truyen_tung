@@ -342,3 +342,22 @@ span.text-chapter {
     background: rgba(0, 0, 0, 0.5);
    position: absolute;
 }
+
+@media(max-width: 650px) {
+    .box-comic{
+        max-width: 100% !important;
+    }
+    .title-truyen{
+        width: 100%;
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .category-comic .text-content-comic{
+        max-width: unset;
+        width: 98%;
+    }
+    .top-up{
+        bottom: 106px;
+    right: 33px;
+    }
+}
