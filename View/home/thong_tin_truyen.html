@@ -7,9 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
     <link rel="stylesheet" href="../css/index.css">
     <script src="../javascript/bootstrap.min.js"></script>
     <script src="../javascript/jquery.min.js"></script>
@@ -31,71 +29,75 @@
 
 <body>
     <header id="header">
+      
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a   class="navbar-brand" href="index.html">
-                <!-- <img class="img-logo" src="../img/logo.png" alt=""> -->
+            <div class="container" >
+              <a class="navbar-brand" href="index.html">
                 <img src="https://hanultruyen.net/img/hanul-comics.a6fedfc4.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              </a>
+              <button class="navbar-toggler menu-mobe-show" type="button"   a>
+                <i class="fa-sharp fa-solid fa-bars"></i>
+              </button>
+              
+              <div class="collapse_t ">
                 <form class="form-inline  form-search">
-                    <input class="form-control input-search" type="search" placeholder="Tìm kiếm..." aria-label="Search">
-                    <button class="btn btn-search " type="submit"><i class="fas fa-search"></i></button>
+                  <input class="form-control input-search" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                  <button class="btn btn-search " type="submit"><i class="fas fa-search"></i></button>
                 </form>
                 <ul class="navbar-nav ">
-                    <li class="nav-item active">
-                        <a class="nav-link font-19 cl-white" href="index.html">Trang chủ<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle font-19 cl-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Thể loại
-                        </a>
-                        <div class="dropdown-menu drop-menu-kt" aria-labelledby="navbarDropdown">
-                            <div class="container">
-                                <div class="kt-flex-menu">
-                                    <ul>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Hoạt hình</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Trinh Thám</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Cổ Tích</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Phưu Lưu</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Anime</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Kiếm Hiệp</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Truyện Tranh</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Phưu Lưu</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Anime</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Kiếm Hiệp</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Cổ Tích</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Phưu Lưu</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Anime</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Kiếm Hiệp</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Truyện Tranh</a></li>
-                                        <li> <a class="dropdown-item font-19" href="the_loai.html">Truyện Tranh</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="coating">
-
-                            </div>
+                  <li class="nav-item active">
+                    <a class="nav-link font-17 cl-white" href="index.html">Trang chủ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class=" font-17 cl-white kt_the_loai" href="#" >
+                      Thể loại
+                    </a>
+                    <div class="dropdown-menu drop-menu-kt js-show-menu" style="display: none;" >
+                      <div class="container">
+                        <div class="kt-flex-menu">
+                          <ul>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Hoạt hình</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Trinh Thám</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Cổ Tích</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Phưu Lưu</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Anime</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Kiếm Hiệp</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Truyện Tranh</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Phưu Lưu</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Anime</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Kiếm Hiệp</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Cổ Tích</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Phưu Lưu</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Anime</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Kiếm Hiệp</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Truyện Tranh</a></li>
+                            <li> <a class="dropdown-item font-19" href="the_loai.html">Truyện Tranh</a></li>
+                          </ul>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link font-19 cl-white " href="#">Lịch sử xem</a>
-                    </li>
+                      </div>
+                      <div class="coating">
+        
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-17 cl-white " href="#">Lịch sử xem</a>
+                  </li>
                 </ul>
-
-                <div class="register-login">
-                    <div class="register  custom-btn">
-                        <a class="" href="dang_ky.html">register</a>
-                    </div>
-                    <div class="login custom-btn">
-                        <a class="" href="dang_nhap.html">login</a>
-                    </div>
+        
+                
+              </div>
+              <div class="register-login">
+                <div class="register  custom-btn">
+                  <a class="" href="dang_ky.html">Đăng nhập</a>
                 </div>
+                <div class="login custom-btn">
+                  <a class="" href="dang_nhap.html">Đăng ký</a>
+                </div>
+              </div>
             </div>
-        </nav>
-
+          </nav>
+      
     </header>
     <div id="content" class="content">
         <div class="container" style="max-width: 1230px !important;">
@@ -414,7 +416,7 @@
             <div class="chi-tiet">
                 <div class="kt-nn">
                     <img src="" alt="">
-                    <span> tiếng việt</span>
+                    <span>Tiếng việt</span>
                 </div>
                 <div class="nd-chi-tiet">
                     <ul>

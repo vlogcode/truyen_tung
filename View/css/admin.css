@@ -261,4 +261,10 @@ td.td-conten {
 #mainnav-menu .active1:hover{
   background: unset!important;
 }
+
+@media(max-width: 650px) {
+  .cls-content .cls-content-sm, .cls-content .cls-content-lg{
+    width: 100%;
+  }
+}
 /* end loading page */

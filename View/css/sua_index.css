@@ -13,12 +13,12 @@ body {
 /*    min-height: 600px;*/
 /*}*/
 div#banner {
-    /* background: url('../img/s7.jpg') no-repeat; */
+    background: url('../img/s2.jpg') no-repeat;
     width: 100%;
     background-size: 100% 100%;
     min-height: 600px;
     /*background: aliceblue;*/
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 #content.content {
     background: url('../img/s3.jpg') no-repeat;
@@ -215,7 +215,7 @@ span.text-chapter {
 
 .title-truyen {
     margin: 15px 0px 10px 0px;
-    font-family: cursive;
+    font-family: 'Inter';
     width: 157px;
     overflow: hidden;
     text-overflow: ellipsis;

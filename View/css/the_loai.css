@@ -140,8 +140,30 @@ font-size: 21px;
     .the-loai .list-category{
         width: 100%;
         position: relative;
+        display: none;
     }
     ul.category-ul{
         /* position: absolute; */
+    }
+    .the-loai .category-comic-tl{
+        margin-left: 0px;
+    }
+    .the-loai .mn-category{
+        flex-direction: column;
+    }
+    .the-loai ul.sort-ul li a{
+        margin: 0px 10px 0px 0px;
+    }
+    .the-loai ul.sort-ul{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .the-loai .mn-category>h4{
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .the-loai .list_result .box-tl{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }

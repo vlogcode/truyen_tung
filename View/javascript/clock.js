@@ -7,54 +7,44 @@ jQuery(document).ready(function ($) {
       1000
     );
   });
-  // if(jQuery('.slide_home').length>0){
-  //     jQuery('.slide_home').slick({
-  //         dots: true,
-  //         arrows:true,
-  //         infinite: false,
-  //         autoplaySpeed: 3000,
-  //         speed: 300,
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         responsive: [
-  //             {
-  //                 breakpoint: 1025,
-  //                 settings: {
-  //                     slidesToShow: 1,
-  //                     slidesToScroll: 1,
-  //                     infinite: true,
-  //                     dots: true
-  //                 }
-  //             },
-  //             {
-  //                 breakpoint: 768,
-  //                 settings: {
-  //                     slidesToShow: 1,
-  //                     slidesToScroll: 1
-  //                 }
-  //             },
-  //             {
-  //                 breakpoint: 480,
-  //                 settings: {
-  //                     slidesToShow: 1,
-  //                     slidesToScroll: 1
-  //                 }
-  //             }
-  //         ]
-  //     });
-  // }
+ 
   $(".slide_home").slick({
-    // slidesToShow: 1,
+    // slidesToShow: 3,
     // slidesToScroll: 1,
     // // autoplay: true,
     // autoplaySpeed: 1000,
     // dots: true,
 
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear'
+    // dots: true,
+    // infinite: true,
+    // speed: 500,
+    // fade: true,
+    // cssEase: 'linear'
+    slidesToShow: 3,
+    slidesToScroll: 1,
+ 
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    responsive: [
+      
+      {
+        breakpoint: 869,
+        settings: {
+          slidesToShow: 3,
+          arrow: false,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 650,
+        settings: {
+          slidesToShow: 1,
+          arrow: false,
+          slidesToScroll: 1,
+        },
+      },
+    ],
 
 
   });
@@ -143,3 +133,26 @@ $(window).scroll(function () {
   }
 });
 
+$(document).ready(function(){
+  $(".kt_the_loai").click(function(){
+    $(".js-show-menu").slideToggle(0);
+  })
+  $(".menu-mobe-show").click(function(){
+    $(".collapse_t").slideToggle(0);
+    $(".js-show-menu").show(0);
+  })
+  $(".coating").click(function(){
+    $('.js-show-menu').hide();
+    $(".js-show-menu").show(0);
+    $(".js-show-menu").hide(0);
+    // $(".collapse_t").hide(0);
+  })
+  
+})
+
+$(window).click(function(e) {
+  if ($(e.target).is('.js-show-menu')) {
+      $('.js-show-menu').hide();
+
+  }
+});
